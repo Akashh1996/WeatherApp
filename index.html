@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <div class="notification"> </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="temperature-value">
+                <p><span>-</span><span>°C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="location">
+                <p>-</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div style="margin: auto; text-align: center;">
+    <label style="color : white">City</label>
+    <input type="text" style="border: 3px solid lightgreen;" id="city">
+    </div>  
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
+
+

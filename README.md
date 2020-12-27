@@ -1,4 +1,12 @@
 # WeatherApp
-Weather app that uses weather API to display current weather by country or city name
-Its a simple app that fetches the data from the api and extratcs as json file.
-this is how the page looks like -> https://akashh1996.github.io/WeatherApp/
+A very simple weather app that is integrated with weather API that displays the current 
+weather by country or city. Its just an application I tried to build for practicing javascript 
+and promises.
+
+# Technology
+Since the app was built for practice purpose, it was created in vanilla javascript with :
+
+- HTML5
+- CSS3
+- Javascript
+- Promises(fetch/then)
